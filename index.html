@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form">
+        <h1>Please fill in the details</h1>
+        <p>
+            Name:
+            <input type="text" id="name" placeholder="Enter your Name">
+        </p> 
+        <p>
+            Email:
+            <input type="email" id="email" action="mailto:test@dn-uk.com" placeholder="Enter your Email">
+            <!-- mailto allows the email to be sent to test@dn-uk.com
+                 means that u must fill the form -->
+        </p>
+        <p>
+            Card:
+            <input type="text" id="credit_card" placeholder="Enter a Proxy Credit Card Number"> 
+            <!-- type text bc the lunhn algorithm has input type string -->
+        </p>
+        <button onclick="validInputs()">Submit</button>
+    </form>
+</body>
+</html>
